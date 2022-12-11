@@ -25,7 +25,7 @@ int main() {
 		scanf("%d",&second[i][j]);    
 	   }
 	}    
-    // Addition Matrices
+    // Subtraction Matrices
 	printf("Sum of the matrix=\n");  
 	sum[i][j]=0;    
 	for(i=0;i<row;i++)    
