@@ -103,3 +103,100 @@ The following are the steps involved in performing cause-effect graphing:
 ### Disadvantages
 - May be difficult to create and maintain the graph.
 - Can be time-consuming to identify all possible scenarios.
+
+---
+
+## White-Box Testing
+
+### Definition
+White-box testing is a testing technique that involves examining the internal structure of a system being tested. The goal of this technique is to ensure that all code paths are executed and that the system behaves as expected.
+
+### Steps
+The following are the steps involved in performing white-box testing:
+
+1. Understand Code: The first step is to understand the code being tested, including its structure, logic, and dependencies.
+
+2. Design Test Cases: Next, test cases are designed based on the code structure and logic. This involves selecting input values that will test all possible code paths.
+
+3. Execute Tests: Tests are then executed against the system being tested and results are recorded.
+
+4. Analyze Results: Finally, results are analyzed to identify defects and areas for improvement.
+
+### Techniques
+There are several techniques used in white-box testing, including:
+
+- Basis Path Testing
+- Structural Testing
+- Logic-Based Testing
+- Fault-Based Testing
+
+## Basis Path Testing
+
+### Definition
+Basis path testing is a white-box testing technique that involves identifying all possible execution paths through a program's source code. The goal of this technique is to ensure that all possible code paths have been executed at least once.
+
+### Steps
+The following are the steps involved in performing basis path testing:
+
+1. Identify Control Flow Graph: The first step is to identify the control flow graph for the program being tested.
+
+2. Determine Cyclomatic Complexity: Next, cyclomatic complexity is determined by counting the number of decision points in the control flow graph.
+
+3. Identify Independent Paths: Independent paths through the control flow graph are then identified using a formula based on cyclomatic complexity.
+
+4. Design Test Cases: Test cases are then designed based on each independent path through the control flow graph.
+
+5. Execute Tests: Finally, tests are executed against the system being tested and results are recorded.
+
+## Structural Testing
+
+### Definition
+Structural testing is a white-box testing technique that involves examining the internal structure of a program to identify defects. The goal of this technique is to ensure that all code paths have been executed and that the system behaves as expected.
+
+### Steps
+The following are the steps involved in performing structural testing:
+
+1. Identify Code Structure: The first step is to identify the structure of the code being tested, including its modules, functions, and classes.
+
+2. Design Test Cases: Test cases are then designed based on the code structure and logic. This involves selecting input values that will test all possible code paths.
+
+3. Execute Tests: Tests are then executed against the system being tested and results are recorded.
+
+4. Analyze Results: Finally, results are analyzed to identify defects and areas for improvement.
+
+## Logic-Based Testing
+
+### Definition
+Logic-based testing is a white-box testing technique that involves examining the logical structure of a program to identify defects. The goal of this technique is to ensure that all logical conditions have been tested and that the system behaves as expected.
+
+### Steps
+The following are the steps involved in performing logic-based testing:
+
+1. Identify Logical Conditions: The first step is to identify all logical conditions in the program being tested, including if-else statements, loops, and switch statements.
+
+2. Design Test Cases: Test cases are then designed based on each logical condition in the program.
+
+3. Execute Tests: Tests are then executed against the system being tested and results are recorded.
+
+4. Analyze Results: Finally, results are analyzed to identify defects and areas for improvement.
+
+## Fault-Based Testing
+
+### Definition
+Fault-based testing is a white-box testing technique that involves intentionally introducing faults into a program to identify defects. The goal of this technique is to ensure that the system can handle unexpected errors and exceptions.
+
+### Steps
+The following are the steps involved in performing fault-based testing:
+
+1. Identify Potential Faults: The first step is to identify potential faults in the program being tested, including syntax errors, logic errors, and boundary conditions.
+
+2. Introduce Faults: Faults are then intentionally introduced into the program using techniques such as mutation testing or fault injection.
+
+3. Design Test Cases: Test cases are then designed to test the system's ability to handle each type of fault.
+
+4. Execute Tests: Tests are then executed against the system being tested and results are recorded.
+
+5. Analyze Results: Finally, results are analyzed to identify defects and areas for improvement.
+
+## Comparison Table
+
