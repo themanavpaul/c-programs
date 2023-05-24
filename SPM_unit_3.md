@@ -28,8 +28,6 @@ Now, here's a table comparing Equivalence Class Partitioning, Boundary Value Ana
 | --- | --- | --- | --- |
 | Equivalence Class Partitioning | Divides input values into groups or classes that are expected to behave similarly. | Reduces the number of test cases needed. | May not identify all defects. |
 | Boundary Value Analysis | Selects input values that are at or near boundaries between different equivalence classes. | Can identify defects related to boundary conditions. | May not identify all defects. |
-| Cause-Effect Graph | Identifies the relationship between inputs
-ccomplete the above answer
-and outputs of a system using a graphical representation. | Can identify complex relationships between inputs and outputs. | May be difficult to create and maintain the graph. |
+| Cause-Effect Graph | Identifies the relationship between inputs and outputs of a system using a graphical representation. | Can identify complex relationships between inputs and outputs. | May be difficult to create and maintain the graph. |
 
 I hope this helps! Let me know if you have any further questions.
